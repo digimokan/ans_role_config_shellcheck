@@ -1,0 +1,3 @@
+# command to execute to run shellcheck
+shellcheck_main_cmd: 'shellcheck'
+
