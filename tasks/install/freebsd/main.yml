@@ -1,0 +1,7 @@
+- name: "Install the 'hs-ShellCheck' application package"
+  ansible.builtin.package:
+    name: hs-ShellCheck
+    state: present
+  become: true
+  become_user: root
+
