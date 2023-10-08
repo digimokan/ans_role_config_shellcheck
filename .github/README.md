@@ -53,7 +53,7 @@ Install and configure the shellcheck shell script linter.
        - name: "Install and configure the shellcheck shell script linter"
          ansible.builtin.include_role:
            name: ans_role_config_shellcheck
-           public: yes
+           public: true
    ```
 
 ## Role Options
